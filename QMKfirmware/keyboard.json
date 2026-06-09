@@ -1,0 +1,41 @@
+{
+    "keyboard_name": "pandaboard",
+    "manufacturer": "Adnan Yazik",
+    "maintainer": "Adnan Yazik",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP26", "GP27", "GP28"],
+        "rows": ["GP29", "GP4"]
+    },
+    "encoder": {
+        "enabled": true,
+        "rotary": [{ "pin_a": "GP2", "pin_b": "GP0" }]
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0000",
+        "device_version": "1.0.0"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 }
+            ]
+        }
+    }
+}
