@@ -24,3 +24,5 @@ I will be using the 6 Keys for :
 Rotary encoder for volume up/down and press for mute
 
 For now the OLED will show only static text as i dont have a good idea what to display yet.
+
+
