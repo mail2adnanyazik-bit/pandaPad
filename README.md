@@ -25,9 +25,9 @@ Rotary encoder for volume up/down and press for mute
 
 For now the OLED will show only static text as i dont have a good idea what to display yet.
 
-# CAD model : 
+# CAD model :
 
-Everything fits together with M3x16mm Screws 
+Everything fits together with M3x16mm Screws
 
 <img width="1122" height="768" alt="image" src="https://github.com/user-attachments/assets/4328a28f-c7e6-4bbe-820c-9606039a7a0a" />
 
@@ -41,11 +41,11 @@ Made with OnShape
 
 # PCB
 
-This is my PCB : 
+This is my PCB :
 
 <img width="1930" height="1350" alt="image" src="https://github.com/user-attachments/assets/b8ce69d8-60a8-440a-bed0-8143e6ae6d07" />
 
-My schematic : 
+My schematic :
 
 <img width="1950" height="1076" alt="image" src="https://github.com/user-attachments/assets/0afd58f1-4faf-486d-a8b3-ce7dde77eac6" />
 
@@ -53,22 +53,26 @@ Both were designed in KiCad
 
 # Firmware :
 
-## Rotary encoder : 
-  Volume up/down, mute
-## Keys 1 - 6 (in order) : 
-  1 : Sends ⌃⌥⇧⌘ (Ctrl+Option+Shift+Cmd) – my Mac’s hyperkey
-  2 : Sends hyperkey + 2 → myShottr full screenshot keybind
-  3 : Sends hyperkey + 3 → Shottr region screenshot
-  4 : ⌘C (Copy)
-  5 : ⌘V (Paste)
-  6 : ⌘Z (Undo)
+## Rotary encoder :
+
+Volume up/down, mute
+
+## Keys 1 - 6 (in order) :
+
+- 1 : Sends ⌃⌥⇧⌘ (Ctrl+Option+Shift+Cmd) – my Mac’s hyperkey
+- 2 : Sends hyperkey + 2 → myShottr full screenshot keybind
+- 3 : Sends hyperkey + 3 → Shottr region screenshot
+- 4 : ⌘C (Copy)
+- 5 : ⌘V (Paste)
+- 6 : ⌘Z (Undo)
 
 # BOM :
-  Here should be everything you need to make this macropad :
-    - 6 x Cherry MX Switches
-    - 6 x DSA Keycaps
-    - 1 x 0.91" 128x32 OLED Display
-    - 1 x EC11 Rotary Encoder
-    - 1 x XIAO RP2040
-    - 1 x Case (2 3D printed parts)
 
+Here should be everything you need to make this macropad :
+
+- 6 x Cherry MX Switches
+- 6 x DSA Keycaps
+- 1 x 0.91" 128x32 OLED Display
+- 1 x EC11 Rotary Encoder
+- 1 x XIAO RP2040 Microcontroller
+- 1 x Case (2 3D printed parts)
